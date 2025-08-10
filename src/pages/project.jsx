@@ -1,7 +1,5 @@
-import { Navbar } from "../component/Navbar.jsx";
 import Footer from "../component/footor.jsx";
 import { Box } from "@mui/material";
-import HeroSection from "../component/Home/hero.jsx";
 import Projects from '../component/Project/project.jsx'
 import StackHeroSection from "../component/stack/stack_hero.jsx";
 

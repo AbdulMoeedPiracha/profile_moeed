@@ -1,4 +1,3 @@
-
 import Footer from "../component/footor.jsx";
 import { Box } from "@mui/material";
 import ProfessionalSummary from '../component/About/proffessional_summary.jsx'
@@ -7,7 +6,7 @@ import StackHeroSection from "../component/stack/stack_hero.jsx";
 import ExperienceSection from "../component/About/experience.jsx"
 import SkillsSlider from '../component/About/skills.jsx'
 import DownloadResume from "../component/About/resume.jsx"
-import AboutText from "./home/about.jsx";
+
 export default function AboutPage({ toggleTheme, darkMode }) {
     return (
         <Box

@@ -1,7 +1,5 @@
-
 import Footer from "../component/footor.jsx";
 import { Box } from "@mui/material";
-import Projects from '../component/Project/project.jsx'
 import StackHeroSection from "../component/stack/stack_hero.jsx";
 import ContactPage from '../component/contact.jsx'
 export default function ContactPages({ toggleTheme, darkMode }) {
