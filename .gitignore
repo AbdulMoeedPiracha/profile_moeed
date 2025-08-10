@@ -55,7 +55,6 @@ coverage/
 *.temp
 
 # Optional: dotenv environment files with secrets
-.env*
 
 # Optional: ESLint cache
 .eslintcache

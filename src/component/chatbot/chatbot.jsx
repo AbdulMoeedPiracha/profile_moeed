@@ -19,7 +19,8 @@ import ChatIcon from "@mui/icons-material/Chat";
 import CloseIcon from "@mui/icons-material/Close";
 import Cv from '../../../public/Abdul_Moeed_Piracha.pdf';
 
-const OPENAI_API_KEY = "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";
+
+const OPENAI_API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
 
 // Setup pdfjs worker
 pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.js`;
